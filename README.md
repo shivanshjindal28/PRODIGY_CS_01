@@ -21,12 +21,14 @@ Text : EXXEGOEXSRGI <br>
 Shift: 4 <br>
 Cipher: ATTACKATONCE <br>
 
-How to use the program:-
-1) Run the program. <br>
+How to use the program
+1) Run the program.<br>
 2) Choose whether you want to encrypt (e) or decrypt (d) a message.<br>
-3) Enter the message you want to encrypt or decrypt.<br>
-4) Enter the shift value you want to use for the Caesar Cipher.<br>
-5) The program will output the encrypted or decrypted message.<br>
-6) You can choose to encrypt/decrypt another message or exit the program.<br>
+3) Enter the message you want to encrypt or decrypt when prompted. The message will not be visible as you type.<br>
+4) The program will display the first and last letter of the input message.<br>
+5) Enter the shift value you want to use for the Caesar Cipher when prompted. The shift value will not be visible as you type.<br>
+6) The program will output the encrypted or decrypted message.<br>
+7) You can choose to encrypt/decrypt another message or exit the program.<br>
+This provides additional feedback by showing the first and last letters of the input message, which can help ensure that the correct message is being processed.<br>
 
 This program uses the Caesar Cipher algorithm, which shifts each letter in the input text by a specified number of positions in the alphabet. The shift value is taken wrt 26 to ensure it wraps around the alphabet if needed. The program handles both uppercase and lowercase letters while leaving non-alphabetic characters unchanged.
