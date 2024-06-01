@@ -21,4 +21,12 @@ Text : EXXEGOEXSRGI <br>
 Shift: 4 <br>
 Cipher: ATTACKATONCE <br>
 
-In this project, I created a Python program, in which the user enters the text to be encrypted, also stating the value of 'shift', and the program then encrypts the user defined text. The user now can decrypt the same encrypted text by selecting 'decrypt' option and input the encrypted text with the same shift value as used before. The encrypted text would now get decrypted.
+How to use the program
+
+1) Run the program. <br>
+2) Choose whether you want to encrypt (e) or decrypt (d) a message.<br>
+3) Enter the message you want to encrypt or decrypt.<br>
+4) Enter the shift value you want to use for the Caesar Cipher.<br>
+5) The program will output the encrypted or decrypted message.<br>
+6) You can choose to encrypt/decrypt another message or exit the program.<br>
+This program uses the Caesar Cipher algorithm, which shifts each letter in the input text by a specified number of positions in the alphabet. The shift value is taken wrt 26 to ensure it wraps around the alphabet if needed. The program handles both uppercase and lowercase letters while leaving non-alphabetic characters unchanged.
